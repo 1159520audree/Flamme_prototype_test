@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <title>Flamme.ca || Trouver l'amour différemment. </title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href='http://fonts.googleapis.com/css?family=Pompiere' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="background"></div>
+    <div class="header">
+       <div class="insideContent">
+            <div class="h_gauche">
+                <img class="logo" src="images/logo.png" alt="Fond en briques"/><p>Bonjour, Jessica!</p>
+                <div class="userMenu">
+                <img id="imgCercleUser" src="images/cercle_user.png" alt="Fond en briques"/>
+                <img id="online" class="iconeOnline" src="images/i_online.png" alt="En ligne"/>
+                 <i id="iconeMenuBouton" class="fa fa-home button"></i>
+                    
+                 <img class="imgProfil" src="images/photo.jpg" alt="Votre photo"/>
+                </div>
+            </div>
+
+            <div class="h_droite">
+                <img id="imgCercleHeader" src="images/cercle_header.png" alt="Fond en briques"/>
+                <div class="overCercle">
+                    <a href="connexion.html"> <i class="fa fa-power-off button" id="fa-power-off"></i></a>
+                    <i id="iconeMenu" class="fa fa-home"></i>
+                    <h2>ACCUEIL</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="insideContent" id="backBlanc">
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="insideContent">
+            <div class="h_gauche">
+                <i id="iconeMenuCog" class="button fa fa-cog"></i>
+                <i id="iconeMenuUs" class="button fa fa-users"></i>
+                <i id="iconeMenuEn" class="button fa fa-envelope-o"></i>
+            </div> 
+            <div class="h_droite">
+                <p class="button" id="labelChat" style="color:white;">Chat</p>
+                
+            </div>
+        </div>
+    </div>
+
+   
+    
+</body>
+</html>
